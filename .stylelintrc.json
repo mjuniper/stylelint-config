@@ -13,6 +13,6 @@
       }
     ],
     "selector-max-compound-selectors": [ 5 ],
-    "order/properties-alphabetical-order": true
+    "order/properties-alphabetical-order": false
   }
 }
