@@ -2,7 +2,7 @@
   "extends": "stylelint-config-sass-guidelines",
   "rules": {
     "max-nesting-depth": [
-      2,
+      3,
       {
         "ignoreAtRules": [
           "each",
@@ -11,6 +11,8 @@
           "include"
         ]
       }
-    ]
+    ],
+    "selector-max-compound-selectors": [ 5 ],
+    "order/properties-alphabetical-order": true
   }
 }
